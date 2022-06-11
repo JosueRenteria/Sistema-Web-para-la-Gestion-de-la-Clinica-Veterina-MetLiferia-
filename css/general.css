@@ -1,0 +1,100 @@
+/*Estilos para las etiquetas mas centrales*/
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.letras-negritas {
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/*Estilos para las etiquetas secundarias*/
+
+h1 {
+    text-align: center;
+    width: 100%;
+    color: #3a3a3a;
+    font-weight: 700;
+}
+
+h4 {
+    text-align: justify;
+    color: #3a3a3a;
+}
+
+h5 {
+    text-align: center;
+    color: #3a3a3a;
+}
+
+p {
+    width: 100%;
+}
+
+
+/*Estilos para los colores que no tiene materalize*/
+
+.paleta_azulf {
+    background-color: #D4B499;
+}
+
+.paleta_azulc {
+    background-color: #A2B38B;
+}
+
+.paleta_fondotext {
+    background-color: #f3efe3;
+}
+
+.paleta_etiquetas {
+    background-color: #414506;
+}
+
+.cotenedor-pad {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+
+/*Para el mapa de contactanos*/
+
+.mapas-style {
+    margin: auto;
+    width: 100%;
+}
+
+
+/*Para los estilos del logo*/
+
+.style_logo {
+    float: right;
+    margin-left: 60px;
+}
+
+
+/*Poder centrar las imagenes en el bloque*/
+
+.imagenes_centradas {
+    display: flex;
+    clear: both;
+    align-items: center;
+}
+
+
+/*Este estilo servira para poder centrar los componentes de nuestro header*/
+
+.justificacion-texto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
